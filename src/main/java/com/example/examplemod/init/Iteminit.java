@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class Iteminit {
     public static final String MODID = "examplemod";
     public static final DeferredRegister<Item> items = DeferredRegister.create(ForgeRegistries.ITEMS,MODID);
-    public static final RegistryObject<Item> my_useless = items.register("item_regggggggggggggg",() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<Item> my_useless_2 = items.register("items",() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> my_useless = items.register("my_useless",() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> my_useless_2 = items.register("my_useless_2",() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 }
