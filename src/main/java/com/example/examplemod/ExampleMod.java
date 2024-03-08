@@ -24,7 +24,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
+
+// file import
+
 import com.example.examplemod.init.Iteminit;
+import com.example.examplemod.init.Blockinit;
+
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ExampleMod.MODID)
 public class ExampleMod
@@ -36,5 +42,6 @@ public class ExampleMod
 public ExampleMod(){
     IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
     Iteminit.items.register(bus);
+    Blockinit.blocks.register(bus);
 }
 }

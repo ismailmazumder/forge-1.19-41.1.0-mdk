@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-  "layer0": "examplemod:items/my_useless"
+  "layer0": "examplemod:items/my_useless",
+    "comments" : "layer0 mane 1pashe just imagine a obj or item 3d. jmne iccha vavo"
 }
 }
